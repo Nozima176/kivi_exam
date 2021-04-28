@@ -1,0 +1,100 @@
+.header_middle {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    // width: 100%;
+    padding-left: 20px;
+    // padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+     background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    
+}
+
+.header_middle > input {
+    flex: 1; /* it is really cool*/
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 16px 20px 16px 20px;
+    width: 1200px;
+   
+}
+
+.topHeader-wrapper {
+     max-width: 1400px;
+    // width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.topHeader-buttons {
+    margin: 15px 0 25px 0;
+
+    div {
+        button {
+            margin-right: 15px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+             font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 16px;
+             padding: 5px 12px;
+             border-radius: 3px;
+        }
+
+        :nth-child(1) {
+           
+            color: #704FFF;
+           
+            background: #E5E3FF;
+            
+            
+        }
+
+        :nth-child(2) {
+            
+            color: #57B4E2;
+            background: #E4F6FF;
+
+        }
+        :nth-child(3) {
+            color: #47B95E;
+            background: #D2FFDB;
+        }
+        :nth-child(4) {
+            color: #874C1A;
+            background: #F6DAC2;
+        }
+        :nth-child(5) {
+            color: #787993;
+            background: #D8D8D8;
+            img {
+                margin-left: 10px;
+            }
+        }
+        :nth-child(6) {
+            color: #787993;
+            background: #D8D8D8;
+            img {
+                margin-left: 10px;
+            }
+        }
+        :nth-child(7) {
+            color: #787993;
+            background: #D8D8D8;
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+}

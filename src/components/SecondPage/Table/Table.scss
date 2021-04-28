@@ -1,0 +1,99 @@
+.span-links {
+    width: 765px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    span {
+        font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    color: #414D6A;
+    }
+}
+
+.top-price > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    margin-bottom: 20px;
+    letter-spacing: -0.00016833px;
+
+    color: #444444;
+}
+.top-links {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89154e-05px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.top-buttons > * {
+    margin: 25px 0 25px 0;
+}
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 5px;
+    :nth-child(1) {
+        margin-right: 7px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -3.17237e-05px;
+        color: #000000;
+
+    }
+    :nth-child(2) {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -4.13787e-05px;
+        text-decoration-line: underline;
+        color: #2AAE63;
+    }
+}
+
+.text-bottom {
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: -3.85217e-05px;
+        color: #414D6A;
+        margin: 20px 0 20px 0;
+    }
+    .watch-number {
+        display: flex;
+        align-items: center;
+        
+        :nth-child(1) {
+            margin-right: 40px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -5.89155e-05px;
+            color: #000000;
+        }
+
+        :nth-child(2) {
+            margin-right: 40px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -5.89155e-05px;
+            color: red;
+        }
+    }
+}
