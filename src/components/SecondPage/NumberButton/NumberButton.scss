@@ -1,0 +1,33 @@
+.button {
+    position: relative;
+
+    span {
+        padding: 9px 201px 8px 23px;
+        background: #65E99F;
+        border-radius: 18.5px;
+        width: 331px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -6.73319e-05px;
+        color: #000000;
+
+    }
+
+    .toggle {
+        position: absolute;
+        padding: 9px 26px 8px 19px;
+        background: #41D481;
+        border-radius: 18.5px;
+        z-index: 999;
+        outline: none;
+        border: none;
+        left: 17.5%;
+        top: -42.2%;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+    }
+}

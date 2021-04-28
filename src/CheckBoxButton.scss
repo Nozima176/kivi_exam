@@ -1,0 +1,218 @@
+.buttonsPageWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+
+    .section-one{
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 45px;
+        * {
+            margin-right: 10px;
+        }
+
+        
+
+        select {
+            
+            width: 75px;
+            border: none;
+            outline: none;
+            border-bottom: 3px solid #979797;
+            padding: 4px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            /* identical to box height */
+            margin-right: 70px;
+
+
+            color: #000000;
+        }
+
+        .sectionOne-input {
+            display: flex;
+            flex-direction: column;
+            margin-right: 80px;
+            label {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                margin-bottom: 13px;
+            }
+
+            .input {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 23px;
+                color: #000000;
+                padding:  20px ;
+            }
+        }
+
+        .radioButton {
+            display: flex;
+            align-items: center;
+           
+            input {
+                background: #FFFFFF;
+                border: 1px solid #9B9B9B;
+                box-sizing: border-box;
+                border-radius: 4px;
+                width: 24px;
+                height: 24px;
+            }
+            label {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                color: #000000;
+            }
+        }
+
+
+    }
+
+    .section-two {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 45px;
+        * {
+            margin-right: 50px;
+        }
+        .three-inputs {
+            display: flex;
+            flex-direction: column;
+            label {
+               font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 28px;
+                /* identical to box height */
+
+
+                color: #000000;
+            }
+        }
+    }
+
+
+
+
+}
+.section-one,
+.section-two,
+.section-three{
+    input {
+        border: none;
+        outline: none;
+        background-color: #fff;
+        border-bottom: 3px solid grey;
+        width: 179px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        color: #000000;
+    }
+}
+
+.section-three {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+        label {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            margin-bottom: 20px;
+
+        }
+    }
+}
+
+.section-four {
+
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+
+   
+
+    .fourOne {
+        width: 240px;
+        border-bottom: 3px solid grey;
+        margin-right: 50px;
+
+        span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+
+        }
+
+        select {
+       
+            border-bottom: 2px solid #979797;
+            border: none;
+            outline: none;
+            width: 240px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 23px;
+            color: #000000;
+
+            
+
+        }
+    }
+
+    .fourTwo {
+        width: 350px;
+        border-bottom: 3px solid #979797;
+        span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+
+        }
+        select {
+           
+            border: none;
+            outline: none;
+            width: 350px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 23px;
+            color: #000000;
+           
+
+        }
+            
+    }
+}
+
