@@ -1,24 +1,14 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Tab from '@material-ui/core/Tab';
 import TabContext from '@material-ui/lab/TabContext';
 import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import Carousel from './components/FirstPage/Carousel/Carousel';
-import './Car3.scss'
-import '../src/components/FirstPage/Tabs.scss'
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-      backgroundColor: theme.palette.background.paper,
-      // backgroundColor: "black"
-    },
-  }));
+import './Car3.scss';
+import '../src/components/FirstPage/Tabs.scss';
   
 const Car3 = () => {
-    const classes = useStyles();
     const [value, setValue] = React.useState('1');
 
     const handleChange = (event, newValue) => {
