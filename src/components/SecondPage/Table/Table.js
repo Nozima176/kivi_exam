@@ -37,7 +37,60 @@ function Table() {
 
                 <div className="bottom">
                     <div className="tabel-bottom">
+                    <table>
+ 
+ <tr>
+   <td>Количество комнат:
+       <div>6</div>
+   </td>
+   <td>Общая площадь:
+       <div>40 м2</div>
+   </td>
+   <td>Этаж:
+       <div>32</div>
+   </td>
+ </tr>
+ <tr>
+ <td>Этажность дома:
+       <div>6</div>
+   </td>
+   <td>Состояние квартиры:
+       <div>Первая сдача </div>
+   </td>
+   <td>Этаж:
+       <div>32</div>
+   </td>
+ </tr>
+ <tr>
+ <td>Планировка
+       <div className="bluee">Раздельная</div>
+   </td>
+   <td>Год постройки/сдачи
+       <div className="bluee">Сдача в 2017</div>
+   </td>
+   <td>Ремонт
+       <div>Авторский проект</div>
+   </td>
+ </tr>
+ <tr>
+ <td>Санузел
+       <div  className="bluee">2 санузла и более</div>
+   </td>
+   <td>Меблирована
+       <div className="bluee">Да</div>
+   </td>
+   <td>Высота потолков
+       <div>32</div>
+   </td>
+ </tr>
 
+ <tr>
+   <td colspan="3">Рядом есть
+   <div className="bluee">Больница, поликлиника, Детская, площадка, Детский сад, Остановки, Парк, зелёная зона, Развлекательные заведения, Рестораны, кафе	 </div>
+   </td>
+  
+ </tr>
+</table>
                     </div>
                     <div className="text-bottom">
                         <p>

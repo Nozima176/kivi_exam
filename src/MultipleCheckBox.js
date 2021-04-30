@@ -28,7 +28,7 @@ export class MultipleCheckBox extends Component {
         return (
             <div>
                 <div>
-                    <h4>
+                    <h4 className="inputTitle">
                         Расположение*
                     </h4>
                     <div className="form-inputs">

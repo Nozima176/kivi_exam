@@ -8,9 +8,9 @@ function Card({ img, title, price, time}) {
                 
                 <Link to="/single">
                    <img src={img} alt=""/>
-                   <h4 className="title">{title}</h4>
-                    <span className="time">{time}</span>
-                    <h3 className="amount">{price}</h3>
+                   <h4 className="cardTitle">{title}</h4>
+                    <span className="cardTime">{time}</span>
+                    <h3 className="cardAmount">{price}</h3>
                 </Link>
                     
                 

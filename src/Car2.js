@@ -8,7 +8,7 @@ import  './Car2.scss'
 const Car2 = () => {
     const [modalIsOpen, setIsModalOpen] = useState(false)
     return (
-        <div style={{ maxWidth: 1440, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div style={{ maxWidth: 1440, marginLeft: 'auto', marginRight: 'auto'}}>
             <CarTwo
                 show={8}
             >

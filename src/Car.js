@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from './components/FirstPage/Carousel/Carousel'
 const Car = () => {
     return (
-         <div style={{ maxWidth: 1440, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div style={{ maxWidth: 1440, marginLeft: 'auto', marginRight: 'auto' }}>
             <Carousel
                 show={4}
             >

@@ -10,7 +10,7 @@ function Header() {
                <div className="header-container container">
                 <HeaderTop/>
                 <HeaderBottom/>
-           </div>
+                </div>
           </div>
 
         </div>

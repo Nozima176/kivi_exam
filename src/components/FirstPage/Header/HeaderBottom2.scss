@@ -1,0 +1,253 @@
+
+.headerBottomWrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1050px;
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    box-sizing: border-box;
+    border-radius: 22.5px;
+}
+
+.authHeadBottom {
+     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+.drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.drop__item {
+    color: #000;
+    padding: 10px;
+
+}
+
+#dropdown-basic-button {
+     background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+
+.firstHeaderBottomDropDown {
+    display: flex;
+    align-items: center;
+    width: 198px;
+    border-right: 1px solid rgba(151, 151, 151, 0.370273);
+    padding: 0px 10px 0px 33px;
+    :nth-child(1) {
+        margin-right: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000;
+        
+
+    }
+
+   
+}
+
+.input {
+    width: 358px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    border: none;
+   
+    color: #000000;
+    input::placeholder {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #000000;
+    }
+}
+
+.secondHeaderBottomDropDown {
+
+    width: 310px;
+    border-left: 1px solid rgba(151, 151, 151, 0.370273);
+    padding: 0px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    :nth-child(1) {
+        margin-right: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000;
+        
+
+    }
+
+}
+.search {
+    
+    background: #19D476;
+    border-radius: 22px;
+    padding: 14px 22px 14px 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.plus {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+    margin-right: 10px;
+    background: #11B463;
+    border-radius: 22px;
+}
+
+.add__button {
+    display: flex;
+    align-items: center;
+    background: #19D476;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.add {
+    padding: 0 20px 0 0;
+}
+
+.headerBottom {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
+   margin-bottom: 17px;
+   padding-bottom: 17px;
+}
+
+.addContent {
+    margin-top: 150px;
+
+    .closeButton {
+        position: absolute;
+        top: 0;
+        right: 2%;
+        background: #11B463;
+        padding: 8px;
+        outline: none;
+        border: none;
+        color: #FFFFFF;
+        border-radius: 5px;
+    }
+    h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+
+
+.authHeadBottom {
+    display: flex;
+    flex-direction: column;
+
+    .loginHeaderBottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #414D6A;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #304FFF;
+                margin-right: 26px;
+            }
+
+           
+
+             
+
+                .left-button {
+                    position: relative;
+
+                    img {
+                        background: #41D481;
+                        // width: 34px;
+                        // height: 34px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        padding: 10px 10px;
+                        position: absolute;
+                        top: 4px;
+                    }
+
+                    button {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                     padding: 8px 22px 10px 47px;           
+                    color: #000000;
+                    background: #FFFFFF;
+                    border: 1px solid #41D481;
+                    box-sizing: border-box;
+                    border-radius: 100px 5px 5px 100px;
+
+               
+                    }
+                }
+        }
+    }
+}

@@ -178,27 +178,27 @@ const Car2 = () => {
                        
                     <ul className="links-add">
                         <h4>Рубрика</h4>
-                        <Link to="/single">Детский мир</Link>
-                        <Link to="/single">Недвижимость</Link>
-                        <Link to="/single">Транспорт</Link>
-                        <Link to="/single">Работа</Link>
-                        <Link to="/single">Животные</Link>
-                        <Link to="/single">Транспорт</Link>
-                        <Link to="/single">Дом и сад</Link>
-                        <Link to="/single">Электроника</Link>
-                        <Link to="/single">Бизнес и услуги</Link>
-                        <Link to="/single">Мода и стиль</Link>
-                        <Link to="/single">Хобби, отдых и спорт</Link>
+                        <Link to="/formPage">Детский мир</Link>
+                        <Link to="/formPage">Недвижимость</Link>
+                        <Link to="/formPage">Транспорт</Link>
+                        <Link to="/formPage">Работа</Link>
+                        <Link to="/formPage">Животные</Link>
+                        <Link to="/formPage">Транспорт</Link>
+                        <Link to="/formPage">Дом и сад</Link>
+                        <Link to="/formPage">Электроника</Link>
+                        <Link to="/formPage">Бизнес и услуги</Link>
+                        <Link to="/formPage">Мода и стиль</Link>
+                        <Link to="/formPage">Хобби, отдых и спорт</Link>
 
                     </ul>
 
                     <ul className="links-add">
                         <h4>Недвижимость</h4>
-                        <Link to="/single">Квартиры</Link>
-                        <Link to="/single">Дома</Link>
-                        <Link to="/single">Земля</Link>
-                        <Link to="/single">Гаражи / стоянки</Link>
-                        <Link to="/single">Коммерческие помещения</Link>
+                        <Link to="/formPage">Квартиры</Link>
+                        <Link to="/formPage">Дома</Link>
+                        <Link to="/formPage">Земля</Link>
+                        <Link to="/formPage">Гаражи / стоянки</Link>
+                        <Link to="/formPage">Коммерческие помещения</Link>
 
                     </ul>
 

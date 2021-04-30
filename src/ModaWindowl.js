@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import Car2 from './Car2'
 
 import Modal from 'react-modal'
-import CarTwo from './components/FirstPage/CarTwo/CarTwo'
+// import CarTwo from './components/FirstPage/CarTwo/CarTwo'
 import './Modal.scss'
 
 function ModalWindow() {

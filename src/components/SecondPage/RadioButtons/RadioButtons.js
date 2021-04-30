@@ -224,7 +224,7 @@ function RadioButtons({name}) {
                 </div>
 
 
-                .section 
+                
 
             </div> 
         </div>

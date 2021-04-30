@@ -38,11 +38,7 @@ function Search() {
             </div>
 
 
-            <div className="inputRange">
-                <form class="multi-range-field my-5 pb-5">
-              <input id="multi25" class="multi-range" type="range" />
-             </form>
-            </div>
+           
         </div>
     )
 }

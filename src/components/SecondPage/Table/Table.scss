@@ -61,16 +61,54 @@
         color: #2AAE63;
     }
 }
-
+table {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 25px;
+    font-family: Gilroy;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: -0.00016833px;
+    color: #444444;
+ }
+ tr:first-child td {
+  border-top: 0;
+ }
+  
+ tr:last-child td {
+    border-bottom: 0;
+   }
+   td:last-child {
+       border-right: 0;
+   }
+    
+.bluee{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.00016833px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+}
 .text-bottom {
     p {
+        font-family: 'Gilroy', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 17px;
         line-height: 25px;
         letter-spacing: -3.85217e-05px;
         color: #414D6A;
-        margin: 20px 0 20px 0;
     }
     .watch-number {
         display: flex;

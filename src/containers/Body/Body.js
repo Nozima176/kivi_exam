@@ -3,7 +3,7 @@ import Card from '../../components/FirstPage/Card/Card';
 
 import './Body.scss'
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Body() {
     return (
@@ -135,9 +135,9 @@ function Body() {
                    
                 </div>
                  <div className="more">
-                        <Link>
+                        <a href="/">
                             Покозать еще (20)
-                        </Link>
+                        </a>
                 </div>
 
 

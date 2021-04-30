@@ -1,0 +1,178 @@
+.cartCompItems-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+
+    .up-section {
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        padding-left: 17px;
+        padding-top: 20px;
+        border-bottom: 2px solid grey;
+        .up-one {
+            display: flex;
+            align-items: center;
+
+            img {
+                // background: url(Image.png);
+                border: 1px solid rgba(151, 151, 151, 0.292346);
+                width: 50px;
+                border-radius: 50%;
+                height: 50px;
+                margin-right: 16px;
+            }
+            h3 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                color: #414D6A;
+                width: 358px;
+            }
+        }
+
+
+        .numbs {
+            display: flex;
+            flex-direction: column;
+            margin-right: 24px;
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #414D6A;
+            }
+        }
+        .datas {
+            display: flex;
+            flex-direction: column;
+            width: 144px;
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #414D6A;
+            }
+        }
+
+        .send-button {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-right: 22px;
+
+            button {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                padding: 8px 20px 10px 47px;
+                outline: none;
+                border: none;
+                background: #FFFFFF;
+                border: 1px solid #41D481;
+                box-sizing: border-box;
+                border-radius: 100px 5px 5px 100px;
+                cursor: pointer;
+            }
+
+            img {
+                position: absolute;
+                top: 3px;
+                left: -3px;
+                width: 34px;
+                height: 34px;
+            }
+        }
+
+        .send-buttonTwo {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-right: 22px;
+
+            button {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                padding: 8px 20px 10px 50px;
+                // width: 129px;
+                outline: none;
+                border: none;
+                background: #FFFFFF;
+                border: 1px solid #304FFF;
+                box-sizing: border-box;
+                border-radius: 100px 5px 5px 100px;
+                cursor: pointer;
+
+            }
+
+            img {
+                position: absolute;
+                top: 3px;
+                left: -3px;
+                width: 34px;
+                height: 34px;
+            }
+        }
+
+        .more-infos {
+                 margin-right: 1.6px;
+               width: 35px;
+               height: 35px;
+               border-radius: 50%;
+               background-color: #fff;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               background: #FFFFFF;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.196643);
+                img {
+                    margin-right: 1.6px;
+                }
+           
+        }
+    }
+
+
+    .down-section {
+        .bottom-links {
+            display: flex;
+            align-items: center;
+            width: 422px;
+            justify-content: space-between;
+            padding: 10px 10px 15px 22px;
+
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #304FFF;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #414D6A;
+
+            }
+        }
+        
+    }
+    
+}

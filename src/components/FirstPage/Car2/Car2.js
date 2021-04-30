@@ -69,7 +69,7 @@ const Car2 = (props) => {
                 >
                     <div
                         className={`carousel-content show-${show}`}
-                        style={{ transform: `translateX(-${currentIndex * (100 / show)}%)` }}
+                        style={{ transform: `translateX(-${currentIndex * (10 / show)}%)` }}
                     >
                         {children}
                     </div>

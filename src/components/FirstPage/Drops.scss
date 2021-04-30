@@ -1,0 +1,18 @@
+.drops-container {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    .drops-inner {
+        display: flex;
+        align-items: flex-end;
+        * {
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
